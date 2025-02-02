@@ -409,7 +409,7 @@ void Parser::analyze () {
     // for ( Lex l : poliz ) {
     //     std::cout << i<< "    "<<l;
     //     i++;}
-    std::cout << std::endl << "Yes!!! Yes!!! Your program is correct!!" << std::endl;
+    //std::cout << std::endl << "Yes!!! Yes!!! Your program is correct!!" << std::endl;
 }
 
  
@@ -1362,8 +1362,8 @@ void Executer::execute ( std::vector<Lex> & poliz ) {
     //     from_st(args, m);
     //     std::cout << m<< "    "<<std::endl;
     //     i++;}
-    std::cout<< std::endl;
-    std::cout << "Finish of executing!!!" <<std::endl;
+    //std::cout<< std::endl;
+    //std::cout << "Finish of executing!!!" <<std::endl;
 }
  
 class Interpretator {
@@ -1376,9 +1376,9 @@ public:
  
 void Interpretator::interpretation () {
     pars.analyze ();
-    std::cout<< std::endl;
-    std::cout<<"EXECUTING PROGRAM:"<<std::endl;
-    std::cout<< std::endl;
+    //std::cout<< std::endl;
+    //std::cout<<"EXECUTING PROGRAM:"<<std::endl;
+    //std::cout<< std::endl;
     E.execute ( pars.poliz );
 }
 
