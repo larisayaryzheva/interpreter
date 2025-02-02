@@ -1,24 +1,19 @@
-```markdown
-# **Interpreter for a Model Programming Language** 
+### **Interpreter for a Model Programming Language** 
 
 ## 📌 Overview  
 This project is an **interpreter** for a custom model programming language, implemented in C++.  
 It performs **lexical analysis, parsing, semantic analysis, and execution** of programs written in the model language.  
 
----
-
 ## **Project Structure**  
 
-| **Component**     | **Description** |
+| **Component**    | **Description** |
 |------------------|----------------|
-| `Lex` | Stores token type and value (e.g., `NUM`, `ID`, `IF`) |
-| `Ident` | Table of identifiers (variable names and values) |
-| `Scanner` | Lexical analyzer (converts code into tokens) |
-| `Parser` | Syntactic analyzer (validates program structure) |
-| `Executer` | Executes the parsed program |
-| `Interpretator` | Manages the execution process |
-
----
+| `Lex`            | Stores token type and value (e.g., `NUM`, `ID`, `IF`) |
+| `Ident`          | Table of identifiers (variable names and values) |
+| `Scanner`        | Lexical analyzer (converts code into tokens) |
+| `Parser`         | Syntactic analyzer (validates program structure) |
+| `Executer`       | Executes the parsed program |
+| `Interpretator`  | Manages the execution process |
 
 ## **How to Use**  
 
