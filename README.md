@@ -138,7 +138,7 @@ write(x, "Hello");
 - Comparison: `<`, `>`, `<=`, `>=`, `==`, `!=`  
 - Boolean logic: `and`, `or`, `not`  
 
-📌 **For a full specification, check [`docs/model_language.md`](docs/model_language.md).**  
+📌 **For a full specification, check [model_lang_practical_task.pdf](docs/model_lang_practical_task.pdf).**  
 
 ---
 
